@@ -99,16 +99,14 @@ Therefore, ground truth was constructed separately from the full corpus.
 
 Started with high-confidence issues having a single maintainer label.
 
-Then manually reviewed and curated issues to better align with the target schema.
+Then manually reviewed and curated issues to better align with the target schema and used keywrods like: 
+suggestions, incomplete, feature -> enhancement
+how, what, why, can, unclear, ? -> question
+failing, error, bug, cannot -> bug
+auth, credentials,security vulnerabilities, login -> security
+docs, update -> documentation
+spam, duplicate, off topic, ambigious -> other
 
-Classes represented:
-
-* bug
-* enhancement
-* question
-* documentation
-* security
-* other
 
 ### Final Ground Truth Size
 
@@ -251,31 +249,6 @@ Suitable for:
 
 * high-volume workloads
 * latency-sensitive applications
-
----
-
-# Key Findings
-
-## "Other" Is Difficult
-
-All models struggled to predict the "other" class.
-
-This is expected because "other" is a residual category rather than a coherent semantic category.
-
-Possible production improvements:
-
-* confidence thresholds
-* human review
-* disagreement routing
-* fallback models
-
----
-
-## Measure Rather Than Assume
-
-The fastest and most accurate models were not necessarily the ones expected beforehand.
-
-Empirical measurements proved more valuable than assumptions based solely on parameter count.
 
 ---
 
