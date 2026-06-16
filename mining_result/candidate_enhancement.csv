@@ -1,0 +1,39 @@
+issue_number,title,github_labels
+1854,Unhide support for NAT Gateways,suggestion
+1801,Support of --since nad --until arguments in doctl,suggestion
+1795,oauth2 support,suggestion
+1719,feature request: store the token in the keyring,suggestion
+1647,Add ability of connecting recovery iso to droplet.,"suggestion,do-api"
+1610, Improve `CONTRIBUTING.md` and `README.md` Files,
+1605,[Windows ARM64] 404 error on `doctl serverless install`,bug
+1585,Add --wait flag to databases resize command,"help wanted,hacktoberfest"
+1584,Add --wait flag to databases migrate command,"help wanted,hacktoberfest"
+1553,Add ability to change connection pool size for connection pools,suggestion
+1533,feature: functions: create function triggers with doctl ,suggestion
+1507,Adding taints has wrong syntax in DO docs,bug
+1419,Add Support for Alerts for Uptime Checks,"suggestion,good first issue,api-parity,hacktoberfest"
+1390,panic: runtime error: invalid memory address or nil pointer dereference,bug
+1367,"Add command ""Add ssh key to droplet"" (Renewed, was not considered all around)","suggestion,do-api"
+1365,Add CSV export alongisde text/json,suggestion
+1364,Provide Proper Snap Package on ARM,"bug,packaging,snap"
+1359,Database Replica Functions Missing Integration Tests,"enhancement,help wanted,good first issue,hacktoberfest"
+1274,Add a Dependabot to Automate dependency checks,
+1264,Add --wait flag to load-balancer create command,"suggestion,hacktoberfest"
+1263,Add --wait flag to database create command,"suggestion,hacktoberfest"
+1243,Add shell completion to doctl running in docker,suggestion
+1221,[Feature Request] Deploy zip to Functions,suggestion
+1167,"Get ""/v2/account"": unsupported protocol scheme """"",bug
+1156,Add examples other than [*] to compute cdn flush --files in documentation and/or add output showing which files are flushed,"suggestion,good first issue,hacktoberfest,docs"
+1086,databases firewalls append error: command contains unsupported arguments,bug
+1028,doctl binary for Android ARM64,suggestion
+996,"""doctl auth switch"" mangles all auth-contexts keys that are email addresses",bug
+989,doctl apps create support for update existing apps,suggestion
+985,Add ability to switch context using environment variable,suggestion
+970,Add wait option to app create and update commands,"suggestion,good first issue"
+964,Add watch option to Apps Platform create-deployment,"suggestion,good first issue"
+947,connect api prompts error cannot assign requested address,"bug,Needs Investigation"
+937,Add ability to protect (or ignore) certain droplets so they can't be demolished inadvertently,"suggestion,do-api"
+936,Create new API keys from doctl,"enhancement,suggestion,do-api"
+933,Support for getting do_token from Vault,suggestion
+928,Improve error message when providing non-numeric droplet id,bug
+867,Apps integration test fails to check a returned error,"help wanted,good first issue,hacktoberfest"

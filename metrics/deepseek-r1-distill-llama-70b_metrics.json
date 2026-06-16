@@ -1,0 +1,121 @@
+{
+  "model": "deepseek-r1-distill-llama-70b",
+  "accuracy": 0.53125,
+  "classification_report": {
+    "bug": {
+      "precision": 0.4166666666666667,
+      "recall": 0.8695652173913043,
+      "f1-score": 0.5633802816901409,
+      "support": 23.0
+    },
+    "documentation": {
+      "precision": 0.5833333333333334,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.6086956521739131,
+      "support": 11.0
+    },
+    "enhancement": {
+      "precision": 0.7727272727272727,
+      "recall": 0.8095238095238095,
+      "f1-score": 0.7906976744186046,
+      "support": 21.0
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "question": {
+      "precision": 0.4,
+      "recall": 0.4,
+      "f1-score": 0.4,
+      "support": 5.0
+    },
+    "security": {
+      "precision": 0.7142857142857143,
+      "recall": 0.23809523809523808,
+      "f1-score": 0.35714285714285715,
+      "support": 21.0
+    },
+    "accuracy": 0.53125,
+    "macro avg": {
+      "precision": 0.4811688311688312,
+      "recall": 0.49225798356233136,
+      "f1-score": 0.45331941090425265,
+      "support": 96.0
+    },
+    "weighted avg": {
+      "precision": 0.5127840909090909,
+      "recall": 0.53125,
+      "f1-score": 0.47664635224559354,
+      "support": 96.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      20,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      7,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      3,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      3,
+      1,
+      0,
+      2,
+      2
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      13,
+      0,
+      3,
+      0,
+      0,
+      5
+    ]
+  ],
+  "labels": [
+    "bug",
+    "documentation",
+    "enhancement",
+    "other",
+    "question",
+    "security"
+  ],
+  "p50_latency_seconds": 13.303067262000695,
+  "p95_latency_seconds": 20.68488088279955,
+  "throughput_rps": 0.7171234890958178,
+  "wall_clock_seconds": 333.27593313299803,
+  "concurrency": 10,
+  "error_breakdown": {
+    "success": 239
+  }
+}

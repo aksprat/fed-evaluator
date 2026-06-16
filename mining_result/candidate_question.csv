@@ -1,0 +1,8 @@
+issue_number,title,github_labels
+1644,"deploying serverless from ubuntu with python dependencies hangs, fails, is generally unclear",bug
+1505,"Why do we have to SSH into a droplet, and then install the Droplet Agent?  Why can't you just pre-install it?",waiting-response
+1418,Autocompletion for Fish Shell is unclear,bug
+1335,How do I check droplets in a load-balancer are registered and in healthy state using the CLI?,"suggestion,do-api"
+1156,Add examples other than [*] to compute cdn flush --files in documentation and/or add output showing which files are flushed,"suggestion,good first issue,hacktoberfest,docs"
+919,"How to update DNS records? Receiving ""Data needs to end with a dot (.)""","bug,Needs Investigation"
+857,how to create a droplet from an image??,suggestion

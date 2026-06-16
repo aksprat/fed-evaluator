@@ -1,0 +1,121 @@
+{
+  "model": "llama-4-maverick",
+  "accuracy": 0.5416666666666666,
+  "classification_report": {
+    "bug": {
+      "precision": 0.43902439024390244,
+      "recall": 0.782608695652174,
+      "f1-score": 0.5625,
+      "support": 23.0
+    },
+    "documentation": {
+      "precision": 0.6428571428571429,
+      "recall": 0.8181818181818182,
+      "f1-score": 0.72,
+      "support": 11.0
+    },
+    "enhancement": {
+      "precision": 0.7391304347826086,
+      "recall": 0.8095238095238095,
+      "f1-score": 0.7727272727272727,
+      "support": 21.0
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "question": {
+      "precision": 0.3333333333333333,
+      "recall": 0.8,
+      "f1-score": 0.47058823529411764,
+      "support": 5.0
+    },
+    "security": {
+      "precision": 0.6666666666666666,
+      "recall": 0.19047619047619047,
+      "f1-score": 0.2962962962962963,
+      "support": 21.0
+    },
+    "accuracy": 0.5416666666666666,
+    "macro avg": {
+      "precision": 0.47016866131394236,
+      "recall": 0.566798418972332,
+      "f1-score": 0.4703519673862811,
+      "support": 96.0
+    },
+    "weighted avg": {
+      "precision": 0.5037228681681226,
+      "recall": 0.5416666666666666,
+      "f1-score": 0.4756243346454743,
+      "support": 96.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      18,
+      1,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      1,
+      9,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      17,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      3,
+      1,
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      4,
+      0
+    ],
+    [
+      13,
+      0,
+      3,
+      0,
+      1,
+      4
+    ]
+  ],
+  "labels": [
+    "bug",
+    "documentation",
+    "enhancement",
+    "other",
+    "question",
+    "security"
+  ],
+  "p50_latency_seconds": 0.3395251149995602,
+  "p95_latency_seconds": 0.48137057419990015,
+  "throughput_rps": 27.160188051066687,
+  "wall_clock_seconds": 8.799644521997834,
+  "concurrency": 10,
+  "error_breakdown": {
+    "success": 239
+  }
+}

@@ -1,0 +1,107 @@
+issue_number,title,ground_truth
+1855,v1.160.0 build fails,bug
+1797,registry repository list-v2 ignores --format and --no-header flags,bug
+1790,registries repository delete-tag returns success for images that don't exist,bug
+1758,doctl databases pool create fails when --user arg not provided,bug
+1753,garbage-collection start --force still asks for confirmation,bug
+1681,droplet create starting two extra droplets,bug
+1619,fail to create a kube cluster,bug
+1602,unexpected end of JSON input,bug
+1464,garbage collector does not run,bug
+1380,registry gc start does nothing,bug
+1312,unable to remove label from node pool,bug
+1280,config.yml default path corrupted,bug
+1710,Error getting terminal size: The handle is invalid,bug
+1037,cannot delete volume using doctl,bug
+1018,duplicate droplet created,bug
+934,appspec global envs removed on update,bug
+877,XDG_CONFIG_HOME not defined,bug
+883,Doctl Returns 500 Error When deploying app.yaml to DO App Platform,bug
+1359,Database Replica Functions Missing Integration Tests,enhancement
+936,Create new API keys from doctl,enhancement
+1801,Support of --since nad --until arguments in doctl,enhancement
+1536,doctl apps logs doesn't output JSON,enhancement
+1533,feature: functions: create function triggers with doctl ,enhancement
+1460,Get deployment status via doctl,enhancement
+1436,Not Possible to See CName Domain Record Tags from the CLI with Doctl?,enhancement
+1358,Bring back SizeSlug option to doctl compute droplet list,enhancement
+1349,Allow `--build-command` to be passed for docker builds,enhancement
+1243,Add shell completion to doctl running in docker,enhancement
+1028,doctl binary for Android ARM64,enhacement
+992,doctl databases fork existing cluster,enhacement
+989,doctl apps create support for update existing apps,enhancement
+936,Create new API keys from doctl,enhancement
+895,`doctl compute droplet get <droplet-id|droplet-name>`,enhancement
+856,Allow picking the context’s name in `doctl kubernetes cluster kubeconfig save`,enhancement
+1719,feature request: store the token in the keyring,enhancement
+1367,"Add command ""Add ssh key to droplet"" (Renewed, was not considered all around)",enhancement
+1083,Revoke doks token command,enhancement
+933,Support for getting do_token from Vault,enhancement
+1750,--force flag doesn't work on delete-manifest,enhancement
+1723,doctl registry with multiple registry,enhacement
+1597,Some inconsistencies in enum argument descriptions,enhancement
+1007,Help for 'kubeconfig save' is incomplete,enhancement
+980,compute image create syntax is incomplete,enhancement
+1594,Option descriptions not printed correctly,enhancement
+1364,Provide Proper Snap Package on ARM,enhancement
+1635,Document permissions for doctl compute droplet create optional flags,documentation
+1507,Adding taints has wrong syntax in DO docs,documentation
+1507,Adding taints has wrong syntax in DO docs,documentation
+853,--auto-upgrade flag requires '=' and documentation doesn't describe usage well,documentation
+1147,Documentation not rendering correctly for some pages,documentation
+1024,Typo in --wait command,documentation
+1023,snapshot help doesn't list required parameters,documentation
+1007,Help for kubeconfig save is incomplete,documentation
+1763,Non working example for doctl compute image create,documentation
+980,compute image create syntax is incomplete,documentation
+1507,Adding taints has wrong syntax in DO docs,documentation
+928,Improve error message when providing non-numeric droplet id,documentation
+853,documentation doesn't describe usage well,documentation
+919,How to update DNS records? Receiving Data needs to end with a dot,question
+1418,Autocompletion for Fish Shell is unclear,question
+1644,deploying serverless from ubuntu hangs and is generally unclear,question
+1733,Latest release doesn't include binaries?,question
+1505,"Why do we have to SSH into a droplet, and then install the Droplet Agent?  Why can't you just pre-install it?",question
+1335,How do I check droplets in a load-balancer are registered and in healthy state using the CLI?,question
+919,"How to update DNS records? Receiving ""Data needs to end with a dot (.)""",question
+857,how to create a droplet from an image??,question
+1537,Functions node flag --env not working?,question
+1001,1.61.0 release tarball changed?,question
+1775,Incorrect Release Files - Breaking action-doctl@v2,security
+1759,v1.144.0 missing builds,security
+1407,doctl auth init -t TOKEN should not print token to stdout,security
+1375,Cannot get read-only creds with doctl registry login,security
+1665,1.122 installed via Homebrew on MacOS is flagged by antivirus,security
+1530,doctl registry login fails with ""error storing credentials"",security
+1447,`doctl auth init` connection refused,security
+932,CVE-2020-29652 (High) detected in github.com/digitalocean/doctl-v1.54.0,security
+1139,CVE-2022-21698 (High) detected in github.com/docker/cli-v20.10.14,security
+1130,CVE-2022-27191 (High) detected in github.com/docker/cli-v19.03.13-beta1,security
+1795,oauth2 support,security
+1407,doctl auth init -t TOKEN should not print token to stdout,security
+1176,doctl auth init flag --access-token do not have effect,security
+1085,compute ssk-key import gets permission denied error,security
+1074,Config initialization failed: open /home/<user>/.config/doctl/config.yaml: permission denied,security
+999,Removing default auth context,security
+996,""doctl auth switch"" mangles all auth-contexts keys that are email addresses,security
+915,""auth init"" failed with ""Error: mkdir $HOME/.config: file exists"",security
+908,`doctl auth init` not working on Windows 10 powershell,security
+891,auth init is freezing after OK,security
+881,doctl auth init prompts for token even if flag is present,security
+876,doctl registry login error: docker-credential-secretservice: executable file not found in $PATH,security
+1559,`doctl serverless install` should not require authentication,security
+1176,doctl auth init flag --access-token do not have effect,security
+999,Removing default auth context,other
+995,installation issues on macos,other
+923,Doctl Returns 500 Error When deploying app.yaml to DO App Platform (image source),other
+1024,Typo in --wait command,other
+1131,CVE-2021-44716 (High) detected in github.com/docker/cli-v19.03.13-beta1,other
+927,CVE-2020-8565 (Medium) detected in github.com/digitalocean/doctl-v1.54.0,other
+1843,1.159.0-release Using cached credential,other
+1816,"auth switch --context default writes bogus ""default: true"" into auth-contexts",other
+1632,Deployment failure: `sh: 1: tsc: Permission denied`,other
+1723,doctl registry with multiple registry,other
+1602,Error: unexpected end of JSON input,other
+1418,Autocompletion for Fish Shell is unclear,other
+1364,Provide Proper Snap Package on ARM,other
+

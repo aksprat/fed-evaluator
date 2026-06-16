@@ -1,0 +1,121 @@
+{
+  "model": "llama3.3-70b-instruct",
+  "accuracy": 0.5833333333333334,
+  "classification_report": {
+    "bug": {
+      "precision": 0.46,
+      "recall": 1.0,
+      "f1-score": 0.6301369863013698,
+      "support": 23.0
+    },
+    "documentation": {
+      "precision": 0.8,
+      "recall": 0.7272727272727273,
+      "f1-score": 0.7619047619047619,
+      "support": 11.0
+    },
+    "enhancement": {
+      "precision": 0.76,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.8260869565217391,
+      "support": 21.0
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 15.0
+    },
+    "question": {
+      "precision": 0.4,
+      "recall": 0.4,
+      "f1-score": 0.4,
+      "support": 5.0
+    },
+    "security": {
+      "precision": 0.6666666666666666,
+      "recall": 0.19047619047619047,
+      "f1-score": 0.2962962962962963,
+      "support": 21.0
+    },
+    "accuracy": 0.5833333333333334,
+    "macro avg": {
+      "precision": 0.5144444444444444,
+      "recall": 0.5370851370851372,
+      "f1-score": 0.4857375001706945,
+      "support": 96.0
+    },
+    "weighted avg": {
+      "precision": 0.5347916666666667,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.504626576823569,
+      "support": 96.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      23,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      8,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      15,
+      0,
+      2,
+      0,
+      0,
+      4
+    ]
+  ],
+  "labels": [
+    "bug",
+    "documentation",
+    "enhancement",
+    "other",
+    "question",
+    "security"
+  ],
+  "p50_latency_seconds": 1.5956647339990013,
+  "p95_latency_seconds": 2.420073440301348,
+  "throughput_rps": 5.905472707087463,
+  "wall_clock_seconds": 40.47093464900172,
+  "concurrency": 10,
+  "error_breakdown": {
+    "success": 239
+  }
+}

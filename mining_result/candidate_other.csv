@@ -1,0 +1,5 @@
+issue_number,title,github_labels
+1644,"deploying serverless from ubuntu with python dependencies hangs, fails, is generally unclear",bug
+1418,Autocompletion for Fish Shell is unclear,bug
+1192,Getting Duplicate Suggestions for invalid commands  ,bug
+1018,Option --droplet-agent false creates a duplicate droplet,bug
