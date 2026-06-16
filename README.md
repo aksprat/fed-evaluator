@@ -100,12 +100,12 @@ Therefore, ground truth was constructed separately from the full corpus.
 Started with high-confidence issues having a single maintainer label.
 
 Then manually reviewed and curated issues to better align with the target schema and used keywrods like: 
-suggestions, incomplete, feature -> enhancement
-how, what, why, can, unclear, ? -> question
-failing, error, bug, cannot -> bug
-auth, credentials,security vulnerabilities, login -> security
-docs, update -> documentation
-spam, duplicate, off topic, ambigious -> other
+*suggestions, incomplete, feature -> enhancement
+*how, what, why, can, unclear, ? -> question
+*failing, error, bug, cannot -> bug
+*auth, credentials,security vulnerabilities, login -> security
+*docs, update -> documentation
+*spam, duplicate, off topic, ambigious -> other
 
 
 ### Final Ground Truth Size
